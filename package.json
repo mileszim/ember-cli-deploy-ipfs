@@ -1,9 +1,13 @@
 {
   "name": "ember-cli-deploy-ipfs",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Deploy Ember to IPFS",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-cli",
+    "ember-cli-deploy-plugin",
+    "ipfs-js",
+    "ipfs"
   ],
   "repository": "",
   "license": "MIT",
@@ -27,7 +31,12 @@
   },
   "dependencies": {
     "ember-cli-babel": "^7.23.1",
-    "ember-cli-htmlbars": "^5.3.2"
+    "ember-cli-deploy-build": "^2.0.0",
+    "ember-cli-deploy-gzip": "^2.0.0",
+    "ember-cli-deploy-manifest": "^2.0.0",
+    "ember-cli-deploy-plugin": "^0.2.9",
+    "ember-cli-deploy-revision-data": "^1.0.0",
+    "ipfs-core": "^0.8.0"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
